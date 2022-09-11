@@ -8,15 +8,15 @@
 int main(void)
 
 {
-	int i;
-	
-	for (i = 0; i < 10; i++)
+int i;
 
-	{
-		printf("%i", i);
-	}
+for (i = 0; i < 10; i++)
 
-	printf("\n");
+{
+printf("%i", i);
+}
 
-	return (0);
+printf("\n");
+
+return (0);
 }
