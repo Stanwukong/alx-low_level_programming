@@ -1,12 +1,12 @@
 #include "main.h"
 /*
- * show_sign - function to check for a sign of a number
+ * print_sign - function to check for a sign of a number
  *
  * @c: is the int that will be used for the argument of the function
  * Return: 0
  */
 
-int show_sign(int n)
+int print_sign(int n)
 
 {
 
