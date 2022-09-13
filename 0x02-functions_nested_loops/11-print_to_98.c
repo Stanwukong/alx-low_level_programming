@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 
 
@@ -32,5 +32,3 @@ else
 											}
 
 }
-
-
