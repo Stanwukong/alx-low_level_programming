@@ -1,6 +1,6 @@
 # C- Hello, World
 
-## Learning projects for this project:
+## Learning objectives for this project:
 
 - Why C programming is awesome
 - Who invented C
