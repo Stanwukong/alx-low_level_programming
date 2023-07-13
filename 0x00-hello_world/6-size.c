@@ -1,4 +1,4 @@
-/**
+/*
  * File: 6-size.c
  * Author: Stanley O. Ajanaku
  */
