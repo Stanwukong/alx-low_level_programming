@@ -1,4 +1,4 @@
-/**
+/*
  * File: 5-printf.c
  * Author: Stanley O. Ajanaku
  */
@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
- * main: Prints "with proper grammar, but the outcome is a piece of art,"
+ * main - Prints "with proper grammar, but the outcome is a piece of art,"
  *
  * Return: Always (0). Success!
  */
