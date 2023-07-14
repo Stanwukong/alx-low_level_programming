@@ -3,6 +3,7 @@
 This repo contains programs written for the low-levl programming and algorithm track at ALX SE. In these projects, which occured throughout the duration of the Year 1 curriculum, I learned about data sttructures, algorithms, and other low-level programming concepts while working with the C language. The specific list of projects contained as follows:
 
 - [0x00.C - Hello, World](./0x00-hello_world)
+- [0x01.C - Variables, if, else, while](./0x01-variables_if_else_while)
 
 ## Author :black_nib:
 
