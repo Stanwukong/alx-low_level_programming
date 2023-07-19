@@ -21,7 +21,7 @@ void times_table(void)
 	{
 		_putchar('0');
 
-		for (child = 0; child < 10; child++)
+		for (child = 1; child < 10; child++)
 		{
 			_putchar(',');
 			_putchar(' ');
