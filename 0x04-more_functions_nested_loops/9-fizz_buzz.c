@@ -18,29 +18,31 @@ int main(void)
 {
 	int counter;
 
-	for (counter = 1; counter < 101; counter++)
+	for (counter = 1; counter <= 100; counter++)
 	{
-		if ((counter % 3 == 0) && (counter % 5 != 0))
+		if ((counter % 5) == 0 && (counter % 3) == 0)
 		{
-			printf("Fizz ");
+			printf("FizzBuzz");
 		}
-		else if ((counter % 5 == 0) && (counter % 3 != 0))
+		else if ((counter % 3) == 0)
 		{
-			printf("Buzz ");
+			printf("Fizz");
 		}
-		else if ((counter % 3 == 0) && (counter % 5 == 0))
+		else if ((counter % 5) == 0)
 		{
-			printf("FizzBuzz ");
+			printf("Buzz");
 		}
 		else
 		{
-			printf("%d ", counter);
+			printf("%d", counter);
 		}
 		if (counter == 100)
 		{
 			continue;
 		}
+		printf(" ");
 	}
+
 	printf("\n");
 
 	return (0);
