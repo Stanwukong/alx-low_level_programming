@@ -8,7 +8,7 @@
 
 /**
  * main - Prints numbers from 1- 100, but for multiples of 3
- *	print instead of the number and for multiples of five print 
+ *	print instead of the number and for multiples of five print
  *	Buzz and prints FizzBuzz for multiples of both 3 and 5.
  *
  * Return: Always 0.
@@ -17,6 +17,7 @@
 int main(void)
 {
 	int counter;
+
 	for (counter = 1; counter < 101; counter++)
 	{
 		if ((counter % 3 == 0) && (counter % 5 != 0))
