@@ -36,6 +36,10 @@ int main(void)
 		{
 			printf("%d ", counter);
 		}
+		if (counter == 100)
+		{
+			continue;
+		}
 	}
 	printf("\n");
 
