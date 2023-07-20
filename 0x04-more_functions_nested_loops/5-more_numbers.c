@@ -18,7 +18,7 @@ void more_numbers(void)
 	int count, num;
 
 	/* Prints content 10x */
-	for (count = 0; count < 11; count++)
+	for (count = 0; count < 10; count++)
 	{
 		/* Prints 0 to 14 */
 		for (num = 0; num <= 14; num++)
