@@ -47,3 +47,15 @@
 - **_6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you_**
 	- [6-abs.c](./6-abs.c): C program that computes the absolute value of an integer
 		- Prototype: `int _abs(int);`
+
+- **_7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important_**
+	- [7-print_last_digit.c](./7-print_last_digit.c): C program prints the last digit of a number.
+		- Prototype: `int print_last_digit(int);`
+		- Returns the value of the last digit
+
+- **_8. I'm federal agent Jack Bauer, and today is the longest day of my life_**
+	- [8-24_hours.c](./8-24_hours.c): C program that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+		- Prototype: `void jack_bauer(void);`
+		- You can listen [this soundtrack](https://www.youtube.com/watch?v=btAfXqgMkPs) while coding :)
+
+
