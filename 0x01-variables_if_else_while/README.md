@@ -18,7 +18,7 @@
 - What is the `ASCII` character set
 - What are the purpose of the `gcc` flags `-m32` and `-m64`
 
-## Tasks
+## Tasks :page_with_curl:
 
 - **_0. Positive anything is better than negative nothing_**
 	- [0-positive_or_negative.c](./0-positive_or_negative.c): C program that prints whether a number randomly generated and stored inside variable `n` is positive or negative.

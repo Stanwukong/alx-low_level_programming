@@ -10,7 +10,7 @@
 - What are the `gcc` flags `-Wall -Werror -pendatic -Wextra -std=gnu89`
 - What are header files and how to use them with `#include`
 
-## Tasks
+## Tasks :page_with_curl:
 
 
 

@@ -10,7 +10,7 @@
 - What are the `gcc` flags `-Wall -Werror -pendatic -Wextra -std=gnu89`	
 - What are header files and how to use them with `#include`
 
-## Tasks
+## Tasks :page_with_curl:
 - **_0. _putchar_**
 	- [0-putchar.c](./0-putchar.c): C program that prints `_putchar`, followed bby a new line.
 		- The program should return `0`
