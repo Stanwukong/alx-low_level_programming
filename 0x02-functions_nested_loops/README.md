@@ -10,6 +10,16 @@
 - What are the `gcc` flags `-Wall -Werror -pendatic -Wextra -std=gnu89`	
 - What are header files and how to use them with `#include`
 
+## Tests :heavy_check_mark:
+- [Tests](./tests): Location of test files. Provided by Holberton School.
+
+## Helper file :raised_hands:
+- [_putchar.c](./_putchar.c): C function that writes a character to `stdout`.
+
+## Header file :file_folder:
+- [main.h](./main.h): Header file containing prototypes for all functions written in project.
+
+
 ## Tasks :page_with_curl:
 - **_0. _putchar_**
 	- [0-putchar.c](./0-putchar.c): C program that prints `_putchar`, followed bby a new line.
