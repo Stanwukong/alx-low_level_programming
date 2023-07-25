@@ -16,14 +16,14 @@
 
 void puts2(char *str)
 {
-	int lenght = 0, index = 0;
+	int length = 0, index = 0;
 
 	while (str[index++])
 	{
 		length++;
 	}
 
-	for (index = 0 index < length; index += 2)
+	for (index = 0; index < length; index += 2)
 	{
 		_putchar(str[index]);
 	}
