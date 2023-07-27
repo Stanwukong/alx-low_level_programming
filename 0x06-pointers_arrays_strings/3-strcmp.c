@@ -11,7 +11,7 @@
  * @s1: Pointer to first string to be compared against s2
  * @s2: Pointer to second string to be compared against s1
  *
- * Return: If s1 < s2, 
+ * Return: If s1 < s2,
  */
 
 int _strcmp(char *s1, char *s2)
