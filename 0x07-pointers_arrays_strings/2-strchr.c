@@ -18,18 +18,13 @@
 
 char *_strchr(char *s, char c)
 {
-	int index = 0;
+	int index;
 
-	do
+	for (index = 0; s[index] >= '\0'; index++)
 	{
 		if (s[index] == c)
-		{
 			return (s + index);
-		}
-
-		index++;
 	}
-	while (s[index] != '\0');
 
 	return ('\0');
 }
