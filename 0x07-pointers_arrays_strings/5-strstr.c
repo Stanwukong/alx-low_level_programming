@@ -30,7 +30,7 @@ char *_strstr(char *haystack, char *needle)
 				{
 					return (haystack);
 				}
-				index++
+				index++;
 			}
 			while (haystack[index] == needle[index]);
 		}
