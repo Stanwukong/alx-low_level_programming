@@ -18,3 +18,9 @@
 	- [2-args.c](./2-args.c): C program that prints all the arguments it receives.
 		- All arguments are printed, including the first one.
 		- One argument per line.
+
+- **3. Neither irony nor sarcasm is argument**
+	- [3-mul.c](./3-mul.c): C program that multiplies two numbers.
+		- Prints the result followed by a new line
+		- Assume two numbers and result are stored as integers
+		- Print `Error` and return 1 if program does not receive two arguments
