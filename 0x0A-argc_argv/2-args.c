@@ -19,12 +19,10 @@ int main(int argc, char *argv[])
 {
 	int counter = 0;
 
-	do
-	{
+	do {
 		printf("%s\n", argv[counter]);
 		counter++;
-	}
-	while (counter < argc);
+	} while (counter < argc);
 
 	return (0);
 }
