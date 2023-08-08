@@ -5,7 +5,7 @@
  */
 
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * alloc_grid - returns a pointer to a 2 dimensional
@@ -19,44 +19,36 @@
 
 int **alloc_grid(int width, int height)
 {
-	int **superarr;
-	int height_index, width_index;
+	int **twoD;
+	int hgt_index, wid_index;
 
 	if (width <= 0 || height <= 0)
-	{
 		return (NULL);
-	}
 
-	superarr = (char *)malloc(height * sizeof(int))
+	twoD = malloc(sizeof(int *) * height);
 
-	if (superarr == NULL)
-	{
+	if (twoD == NULL)
 		return (NULL);
-	}
 
-	for (height_index = 0; height_index < height; height_index++)
+	for (hgt_index = 0; hgt_index < height; hgt_index++)
 	{
-		superarr[height_index] = (int *)malloc(width * sizeof(int));
+		twoD[hgt_index] = malloc(sizeof(int) * width);
 
-		if (superarr[height_index] == NULL)
+		if (twoD[hgt_index] == NULL)
 		{
-			while (height_index >= 0)
-			{
-				free(superarr[height_index])
-				height_index--;
-			}
-			free(superarr);
+			for (; hgt_index >= 0; hgt_index--)
+				free(twoD[hgt_index]);
+
+			free(twoD);
 			return (NULL);
 		}
 	}
 
-	for (height_index = 0; height_index < height; height_index++)
+	for (hgt_index = 0; hgt_index < height; hgt_index++)
 	{
-		for (width_index = 0; width_index < width; width_index++)
-		{
-			superarr[height_index][width_index] = 0;
-		}
+		for (wid_index = 0; wid_index < width; wid_index++)
+			twoD[hgt_index][wid_index] = 0;
 	}
 
-	return (superarr);
+	return (twoD);
 }
