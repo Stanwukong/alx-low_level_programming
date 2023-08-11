@@ -5,6 +5,7 @@
  * string_nconcat - Concantenates two strings.
  * @s1: 1st string to be affected.
  * @s2: 2nd string to be affected.
+ * @n: Number of bytes to reserve.
  *
  * Return: on success - Pointer to new string
  *	on fail - NULL
