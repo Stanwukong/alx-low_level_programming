@@ -17,21 +17,21 @@
 
 int main(int argc, char *argv[])
 {
-	int index, sum, result, digit;
+	int num, sum = 0, digit;
 
-	for (index = 1; index < argc; index++)
+	for (num = 1; num < argc; num++)
 	{
-		for (digit = 0; argv[index][digit]; digit++)
+		for (digit = 0; argv[num][digit]; digit++)
 		{
-			if (argv[index][digit] < '0' || argv[index][digit] > '9')
+			if (argv[num][digit] < '0' || argv[num][digit] > '9')
 			{
 				printf("Error\n");
 				return (1);
 			}
 		}
-		sum += atoi(argv[index]);
+		sum += atoi(argv[num]);
 	}
-	printf("%i\n");
+	printf("%i\n", sum);
 
 	return (0);
 }
