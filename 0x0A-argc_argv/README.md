@@ -24,3 +24,21 @@
 		- Prints the result followed by a new line
 		- Assume two numbers and result are stored as integers
 		- Print `Error` and return 1 if program does not receive two arguments
+
+* **4. To infinity and beyond**
+  * [4-add.c](./4-add.c): C program that adds two positive numbers and prints the result,
+  followed by a new line.
+    * The program assumes that the numbers and result of the addition can be stored in an `int`.
+    * If no number is passed to the program, it prints `0` followed by a new line.
+    * If one of the numbers contains symbols that are not digits, the program prints `Error` followed by a new line and returns `1`.
+
+* **5. Minimal Number of Coins for Change**
+  * [100-change.c](./100-change.c): C program that prints the minimum number of coins to
+  make change for an amount of money.
+    * Usage: `./change cents` where `cents` is the amount of cents needed to give back.
+    * Change can use an unlimited number of coins of values 25, 10, 5, 2 and 1 cent.
+    * If the number passed as the argument is negative, the program prints `0`
+    followed by a new line.
+    * If the number of arguments passed to the program is not exactly one,
+    it prints `Error` followed by a new line and returns `1`.
+
