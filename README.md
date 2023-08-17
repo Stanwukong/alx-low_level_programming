@@ -18,6 +18,7 @@ This repo contains programs written for the low-levl programming and algorithm t
 - [0x0D. C - Preprocessor](./0x0D-preprocessor)
 - [0x0E. C - Structures, typedef](./0x0E-structures_typedef)
 - [0x0F. C - Function pointers](./0x0F-function_pointers)
+- [0x10. C - Variadic functions](./0x10-variadic_functions)
 
 ## Author :black_nib:
 
