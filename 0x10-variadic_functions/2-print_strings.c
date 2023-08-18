@@ -3,7 +3,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_strings - Prints strings, followed by a new line. 
+ * print_strings - Prints strings, followed by a new line.
  * @separator: String to be printed between the strings.
  * @n: Number of strings passed to the function
  * @...: Variable number of consecutive arguments
@@ -22,7 +22,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (idx = 0; idx < n; idx++)
 	{
 		buffer = va_arg(args, char *);
-	
+
 		if (buffer != NULL)
 		{
 			printf("%s", buffer);
