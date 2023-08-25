@@ -29,3 +29,16 @@
 		- Return: the address of the new element, or `NULL` if it failed
 		- `str` needs to be duplicated
 		- `strdup` is allowed
+
+- **4. Free list**
+	- [4-free_list.c](./4-free_list.c): C function that frees a `list_t` list.
+		- Prototype: `void free_list(list_t *head);`
+
+- **5. The Hare and the Tortoise**
+	- [100-first.c](./100-first.c): C function that prints `You're beat! and yet, you must allow,\nI bore my house upon my back!\n` before the `main` function is executed
+		- `printf` is allowed
+
+- **6. Real programmers can write assembly code in any language**
+	- [101-hello_holberton.asm](./101-hello_holberton.asm): 64-bit assembly program that prints `Hello, Holberton`, followed by a new line.
+		- `printf` is allowed
+		- Interrupts are not allowed
