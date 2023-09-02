@@ -8,25 +8,10 @@
  * Return: Binary version of number
  */
 
-unsigned int binary_to_uint(const char *b)
+void print_binary(unsigned long int n)
 {
-	unsigned int num = 0, mult = 1;
-	int len;
+	if (n > 1)
+		print_binary(n >> 1);
 
-	if (b == NULL)
-		return (0);
-
-	for (len = 0; b[len];)
-		len++;
-
-	for (len -= 1; len >= 0; len--)
-	{
-		if (b[len] != '0' && b[len] != '1')
-			return (0);
-
-		num += (b[len] - '0') * mult;
-		mult *= 2;
-	}
-
-	return (num);
+	_putchar((n & 1) + '0');
 }
