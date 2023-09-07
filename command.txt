@@ -1,0 +1,26 @@
+total 32
+drwxr-xr-x 23 root root 4096 Sep  5 13:18 .
+drwx------  1 root root 4096 Sep  2 08:14 ..
+drwxr-xr-x  2 root root  235 Jul 24 10:16 0x00-hello_world
+drwxr-xr-x  2 root root 4096 Jul 24 10:17 0x01-variables_if_else_while
+drwxr-xr-x  2 root root 4096 Jul 25 02:17 0x02-functions_nested_loops
+drwxr-xr-x  2 root root  262 Jul 25 09:49 0x03-debugging
+drwxr-xr-x  3 root root 4096 Jul 25 09:54 0x04-more_functions_nested_loops
+drwxr-xr-x  3 root root  301 Jul 24 17:39 0x05-pointers_arrays_strings
+drwxr-xr-x  3 root root 4096 Aug 13 19:59 0x06-pointers_arrays_strings
+drwxr-xr-x  3 root root  283 Aug 13 20:02 0x07-pointers_arrays_strings
+drwxr-xr-x  3 root root  300 Aug 13 20:03 0x08-recursion
+drwxr-xr-x  2 root root  123 Aug 13 20:05 0x09-static_libraries
+drwxr-xr-x  2 root root  194 Aug 13 20:20 0x0A-argc_argv
+drwxr-xr-x  3 root root  272 Aug 13 20:22 0x0B-malloc_free
+drwxr-xr-x  3 root root  261 Aug 10 18:12 0x0C-more_malloc_free
+drwxr-xr-x  3 root root  198 Aug 14 07:39 0x0D-preprocessor
+drwxr-xr-x  3 root root  129 Aug 15 14:50 0x0E-structures_typedef
+drwxr-xr-x  3 root root  237 Aug 16 15:48 0x0F-function_pointers
+drwxr-xr-x  3 root root  177 Aug 17 19:02 0x10-variadic_functions
+drwxr-xr-x  3 root root  240 Aug 25 10:39 0x12-singly_linked_lists
+drwxr-xr-x  3 root root 4096 Aug 30 07:36 0x13-more_singly_linked_lists
+drwxr-xr-x  3 root root  118 Sep  2 08:14 0x14-bit_manipulation
+-rw-r--r--  1 root root    0 Sep  5 13:18 command.txt
+drwxr-xr-x  8 root root  166 Sep  2 08:15 .git
+-rw-r--r--  1 root root 2247 Sep  2 06:28 README.md
