@@ -20,7 +20,7 @@ int create_file(const char *filename, char *text_content)
 	/* Find text len */
 	if (text_content != NULL)
 	{
-		while (text_content[idx] == '\0')
+		while (text_content[idx] != '\0')
 		{
 			text_len++;
 			idx++;
