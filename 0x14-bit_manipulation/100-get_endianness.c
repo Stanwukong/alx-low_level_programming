@@ -2,8 +2,8 @@
 
 /**
  * get_endianness - Checks the endianness
- * 
- * Return: 0 if big endian, otherwise 1 
+ *
+ * Return: 0 if big endian, otherwise 1
  */
 
 int get_endianness(void)
