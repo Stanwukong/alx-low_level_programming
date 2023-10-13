@@ -25,10 +25,6 @@ This repo contains programs written for the low-levl programming and algorithm t
 - [0x14. C - Bit manipulation](0x14-bit_manipulation)
 - [0x15. C - File I/O](0x15-file_io)
 - [0x16. C - Simple Shell](https://github.com/Stanwukong/simple_shell)
-<<<<<<< HEAD
-- [0x17. C - Doubly linked lists](./0x17-doubly_linked_lists)
-=======
->>>>>>> fb1e2e146ec02a3e65f9a90d8808678d88c59999
 
 ## Author :black_nib:
 
