@@ -7,7 +7,7 @@
  *
  * Return: The hash value.
  */
-unsigned long int  hash_djb2(const char *str)
+unsigned long int hash_djb2(const char *str)
 {
 	unsigned long int hash = 5381;
 	int c;
